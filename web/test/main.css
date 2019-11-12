@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+.nav-heading
+{
+    color: aqua;
+    font-family: Lexend Zetta;
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+    text-shadow: 2px 2px 2px aqua;
+}
+
+
+
+.nav-header ul
+{
+    list-style: none;
+    padding: 0px;
+
+
+}
+
+.nav-header li
+{
+display: inline;
+padding: 3px;
+color: blanchedalmond;
+
+}
+.nav-header
+{
+    text-align: right;
+
+}
+
+header
+{
+    background-image: url("cris-dinoto-jRiWB-UafGI-unsplash.jpg");
+    height: 200px;
+    background-size: cover;
+    
+}
+
+.content p
+{
+    margin: 10px;
+    word-spacing: 10px;
+    color: azure;
+    text-indent: 1.2em;
+}
+
+body
+{
+    background-image: url("josh-spires-drone_nr-Xrl6D5UqiNA-unsplash.jpg");
+    background-size: cover;
+    background-color: rgb(0,0,0,60%);
+    background-blend-mode: multiply;
+
+
+
+}
+.nav-login 
+{
+    display: flex;
+    margin: 2px;
+
+
+}
+.nav-login form
+{
+    display: flex;
+
+
+}
+.nav-login p
+{
+    color: azure;
+
+
+}
+
+.name-input
+{
+    padding: 10px;
+    
+
+}
+.login-name
+{
+
+    margin: 10px;
+
+
+
+}
+.login-password
+{
+
+    margin: 10px;
+
+
+
+}
+.password-input
+{
+    padding: 10px;
+
+
+}
+.login-button
+{
+
+    margin: 10px;
+
+
+}
+
+.nav-login input
+{
+    font-family: Farro;
+
+
+}

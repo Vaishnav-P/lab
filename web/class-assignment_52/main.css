@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+*{
+
+   margin: 0;
+    padding:0;
+   font-family: Raleway;
+
+}
+a
+{
+text-decoration: none;
+border: 2px solid red;
+background-color: #2d3142;
+box-shadow: 5px 5px 5px black ;
+padding: 3px;
+margin: 10px;
+font-size:1.2em;
+border-radius: 2px;
+width: 40px;
+color: #d8d5db;
+}
+h3
+{
+
+	font-size:1.2em;
+
+
+}
+
+
+
+.container
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	padding:10px;
+    margin-top:10%;
+    
+}
+.box
+{
+    border:2px solid red;
+    background-color: #f5d3c8;
+    box-shadow: 5px 5px 20px black ;
+    height: 450px;
+}
+.image img
+{
+   
+    border-radius: 55%;
+    margin:10px;
+    box-shadow: 5px 5px 5px black ;
+}
+.image
+{
+    padding: 4px;
+
+
+}
+
+.hobby
+{
+
+    margin:20px;
+   
+
+}
+
+.main-header
+{
+    background-image: url("room-ExjFiNHtxKI-unsplash.jpg");
+	background-size: cover;
+	background-color: rgba(0,0,0,60%);
+	background-blend-mode: multiply;
+    font-family: Raleway;
+    text-align: center;
+    color:#d2d7df;
+    height: 250px;
+    
+    
+}
+.main-header h1
+{
+   padding: 2em;
+   font-size:2.3em;
+}
+
+.body-heading
+{
+    margin-top: 1em;
+    color:tomato;
+    padding: 3px;
+}
+
+body{
+	
+    background-image: url("sun-pattern.png");
+	background-size: cover;
+
+
+
+}
+ul
+{
+    list-style: none;
+    
+
+}
+

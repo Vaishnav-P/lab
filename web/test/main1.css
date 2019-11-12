@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+
+}
+.nav-heading
+{
+    color:white;
+    font-family: Lexend Zetta;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 100px;
+    text-shadow: 2px 2px 2px #3d5b99;
+    letter-spacing: -3px;
+    padding:20px;
+}
+.nav-header
+{
+    text-align: left;
+
+}
+
+header
+{
+    background:#3d5b99;
+    height: 100px;
+    background-size: cover;
+
+    
+}
+
+.content p
+{
+    margin: 10px;
+    word-spacing: 10px;
+    color: black;
+    text-indent: 1.2em;
+}
+
+body
+{
+    background-image: linear-gradient(to right,white ,#b7b6c2);
+
+}
+
+.nav-login form
+{
+    display: flex;
+
+
+}
+.nav-login p
+{
+    color: azure;
+
+
+}
+.login-wrapper
+{
+    margin-left:300px; 
+    display: flex;
+
+}
+
+.right-wrapper
+{
+    width: 40%
+
+
+}
+
+.name-input
+{
+    padding: 10px;
+    
+
+}
+.login-name
+{
+
+    margin: 10px;
+
+
+
+}
+.login-password
+{
+
+    margin: 10px;
+
+
+
+}
+.password-input
+{
+    padding: 10px;
+
+
+}
+.login-button
+{
+
+    margin: 10px;
+
+
+}
+.login-button input
+{
+    background-color: #073aa1;
+    color : white;
+    border: 0px;
+    width:60px;
+    height:30px;
+    border-radius: 10px;
+
+}
+.login-button input:hover
+{
+
+    background-color: #061f52;
+   
+
+}
+.nav-login input
+{
+    font-family: Farro;
+
+
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 10%;
+    
+
+}
+.paragraph p
+{
+    font-weight: bold;    
+    font-size: 1.2em;
+    color: #073aa1;
+    max-width: 80%;
+    text-align: left;
+
+}
+h2{
+    padding: 10px;
+    font-family: Sans;  
+    font-weight:bold;
+    font-size:30px;
+}
+h3{
+    padding: 5px;
+    font-size: 14px;
+    font-family: Sans;
+    font-weight: lighter;
+}
+.Signup
+{
+    width: 100%;
+
+
+}
+
+.create-first
+{
+    
+    height:30px;
+
+
+}
+
+.create-sur
+{
+     
+    height:30px;
+
+
+}
+.create-mob
+{
+    width:100%;
+    height:30px;
+
+}
+.create-pass
+{
+
+    width:100%;
+    height:30px;
+
+
+}
+.label-birth
+{
+ text-align: left; 
+ font-weight: bold;
+ color:rgba(145, 145, 145);
+
+
+
+}
+.create-date
+{
+
+    width:100%;
+    height:30px;
+
+}
+.label-gender
+{
+ text-align: left; 
+ font-weight: bold;
+ color:rgba(145, 145, 145);
+
+}
+
+.policy
+{
+    font-size:10px;
+    max-width: 60%;
+
+}
+
+.button
+{
+    width: 60%;
+    height: 50px;
+    margin-left: 50%;
+    background-color: #1d9412;
+    border: 1px solid #1d9412;
+    box-shadow: 1px 1px 1px 1px #1d9412;
+    border-radius: 2px; 
+    color: aliceblue;
+}
+
+.button:hover
+{
+    background-color: #116b09;
+
+
+
+}
+
+footer
+{
+    margin-top: 10px;
+    height: 200px;
+    background-color:whitesmoke;
+
+}
+footer p
+{
+    text-align: center;
+    padding:50px;
+
+
+}

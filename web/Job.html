@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Application Form</title>
+		<link rel="stylesheet" type="text/css" href="job.css"/>
+	</head>
+
+	
+	<body>
+		<div class="container">
+		<form class="main-form">
+		
+			<h1>Job Seeker's Applicaton Form</h1>
+			<div class="input"><p>First Name:</p> &nbsp; <input type="text" name="fname"> </div>
+			<div class="input"><p>Last Name:</p> &nbsp; <input type="text" name="lname"> </div>
+			<div class="input"><p>Gender</p> &nbsp; 
+			<input type="radio" name="gender" value="Male">Male&nbsp; 
+			<input type="radio" name="gender" value="Female">Female&nbsp;					
+			</div>
+			<div class="input"><p>Address :</p> <textarea></textarea></div>
+			<div class="input"> <p>Country</p>&nbsp; 
+			<select name="Country"> 
+				<option value="default" selected>Select</option> 
+				<option value="India">India</option>	
+				<option value="Germany">Germany</option>
+				<option value="Japan">Japan</option>
+				<option value="China">China</option>
+			</select>
+			</div>
+
+			<div class="input"><p>Mobile Number:</p> &nbsp; <input type="text">
+			</div>
+			<div class="input"> <p>Qualification:</p> &nbsp; 
+				<select name="Qualification">
+				<option value="default" selected>Select</option>  
+				<option value="Btech">Btech</option>	
+				<option value="Mtech">Mtech</option>
+				<option value="MBA">MBA</option>
+				<option value="MCA">MCA</option>
+			</select>
+			</div>
+			<div class="input">
+				<p>Position for which you are applying for:</p> &nbsp;
+				<select name="Position">
+				<option value="default" selected>Select</option>  
+				<option value="Engineer">Engineer</option>	
+				<option value="Salesman">Salesman</option>
+				<option value="Senior Engineer">Senior Engineer</option>
+				<option value="System Analyst">System Analyst</option>
+			</select>
+			</div>
+			<div class="input">
+				<p>If other,kindly specify</p> <input type="text">
+			</div>
+			
+			<div class="input">
+				<p>Have you previously worked:</p> &nbsp;
+				<select name="Work">
+				<option value="default" selected>Select</option> 
+				<option value="Yes">Yes</option>	
+				<option value="No">No</option>
+				
+			</select>
+			</div>
+
+			<div class="input">
+				<p>If so,when</p> <br> <p>From</p> <input type="Date"> &nbsp;&nbsp;&nbsp;<p>To</p> <input type="Date"> 
+			</div>
+
+			<div class="input">
+				<p>Languages Known</p> 
+				<input type="checkbox">English &nbsp;&nbsp;&nbsp;
+				<input type="checkbox">Malayalam &nbsp;&nbsp;&nbsp;
+				<input type="checkbox">French &nbsp;&nbsp;&nbsp;
+				<input type="checkbox">German &nbsp;&nbsp;&nbsp;
+			</div>
+			
+			<div class="input">
+				<p>Upload your CV here:</p>&nbsp;&nbsp;&nbsp; <input type="file">
+			</div> 
+
+			<div class="input-button">
+				<input type="submit" value="submit" class="sub"> &nbsp;&nbsp;&nbsp; <input type="reset" value="reset" class="resub">
+			</div>
+		</form>
+	</div>
+	</body>
+
+
+
+
+
+
+
+
+</html>

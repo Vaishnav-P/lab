@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+.main-form h1{
+
+color: tomato;
+font-family: Raleway;
+font-size: 2em;
+text-align: center;
+}
+
+body {
+
+    background-image: url("Mountain-Reflection-4K-Ultra-HD-Wallpaper-3840x2160.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-form
+{
+    color:black;
+    font-size: 1em;
+    font-family: Maven Pro;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+form
+{
+   
+    border: 2px solid ;
+    border-color: brown;
+    border-radius: 2%;
+    padding: 5px;
+    background-color: rgba(0,0,0,60%);
+    background-blend-mode: multiply;
+    color: antiquewhite;
+}
+
+.reset
+{
+    margin-right: 2em;
+
+
+}
+
+
+.detail-form p
+{
+
+display:flex;
+}

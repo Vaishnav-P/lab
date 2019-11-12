@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+
+.container
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	padding:10px;
+	margin-top:10%;
+}
+body {
+
+    background-image: url("room-ExjFiNHtxKI-unsplash.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0,60%);
+	background-blend-mode: multiply;
+}
+
+.input100
+{
+	
+	font-size: 20px;
+  	color: #dd0426;
+  	line-height: 1.2;
+  	display: inline;
+  	width: 55%;
+	height: 50px;
+	background: transparent;
+  	padding: 0 10px 0 80px;
+
+
+}
+
+
+h1{
+
+color: #cb48b7;
+font-family: Maven Pro;
+font-size: 2.5em;
+text-align: center;
+}
+h3
+{
+
+font-family: Raleway;
+font-size: 2em;
+text-align: center;
+color: #cb48b7;
+
+}
+
+.wrapper
+{
+	display:inline;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	padding:10px;
+
+}
+
+.main-form
+{
+	border:5px solid #fed18c;
+	border-radius:5px;
+	padding:10px;
+	align-content:center;
+	box-shadow: 5px 5px 20px black;
+	height: 450px;
+	width: 450px;
+	background-color: #c3e8bd;
+}
+
+.form-name p
+{
+	display:inline;
+	color: #2e2d4d;
+	padding: 9px;
+	
+}
+
+.form-pass p
+{
+	display:inline;
+	color: #2e2d4d;
+}
+
+
+
+.form-sub
+{
+
+	display:inline;
+
+}
+
+.form-sub input
+{
+
+	background-color: #0072bb;
+	height: 50px;
+	width: 100px;
+	margin-left: 50px;
+	border-radius: 10px;
+	
+}
+.form-sub input:hover
+{
+	background-color: rgba(0,0,0,60%);
+
+}
