@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+*
+{
+padding: 0;	
+margin: 0;	
+}
+
+body
+{
+
+ background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+
+}
+.wrapper
+{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+
+
+}
+.box
+{	
+
+	border :2px solid red;
+	padding: 10%;
+	margin: 10%;
+	background:linear-gradient(-2deg,#a3bac3,#f8333c);
+	box-shadow: 2px 2px 2px 2px #000;
+	border-radius: 10px;
+
+}
+.heading h1
+{
+
+	font-family: Oxygen;
+
+
+}
+
+.links li
+{
+	list-style:none;
+
+}
+
+.links a
+{
+	text-decoration: none;
+
+}
+nav .links-button
+{
+	border:2px solid #f8333c;
+
+	
+}
+
+.links-button
+{
+	border:2px solid #f8333c;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 20px;
+	min-width: 100px;
+	max-width: 200px;
+	background-color: #f8333c;
+	box-shadow: 2px 2px 2px 2px #000; 
+
+}
+a
+{
+	color:white;
+	text-decoration: none;
+
+}
+nav li
+{
+
+	list-style: none;
+
+}
+.content
+{
+	text-align: center;
+	font-size: 2em;
+	font-family: Oxygen;
+	
+
+
+}

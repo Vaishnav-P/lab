@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Long+Cang&display=swap');
+
+
+body
+{
+
+	background-image:url("../assets/architecture-books-building-1046125.jpg");
+	background-size: cover;
+	background-color: rgba(0,0,0,60%);
+	background-blend-mode: multiply;
+	padding: 2px;
+	
+
+}
+form
+{
+	min-width: 50%;
+	padding-left:30%;	
+}
+
+.wrapper
+{
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 5%;
+	border :2px solid #0d0c1d;
+	border-radius: 20px;
+	min-width: 45%;
+	margin-left: 20%;
+	background-image: linear-gradient(#80cfa9,#b8d5b8);
+	box-shadow: 3px 2px 2px 3px #0d0c1d; 
+	
+}
+
+.login-heading h1
+{
+
+	font-size: 5em;
+	color: #802392;
+	font-family: Long Cang;
+
+}
+.login-thumbnail
+{
+	border-radius: 50%;
+	width: 200px;
+	height:200px;
+	box-shadow: 4px 0px 4px 4px #044389;
+
+}
+.login-Name
+{
+
+	font-size: 1.2em;
+	font-family: Arial;
+	
+
+}
+.login-Password
+{
+
+	font-size: 1.2em;
+	font-family: Arial;
+
+}
+.Login-Button button
+{
+	margin: 10%;
+	margin-left: 50px;
+	font-size: 2.5em;
+	font-family: Zhi Mang Xing;
+	border:3px solid #044389;
+	border-radius: 5px;
+	background-color: #044389;
+	padding: 5px;
+	box-shadow: 2px 2px 2px 2px #044389;
+
+}
+.Login-Button input:hover
+{
+	background-color: #161b33;
+	border :3px solid #161b33;
+}
+
+.Name-input input
+{
+	height: 40px;
+	padding: 3px;
+	border-radius: 9999em;
+
+}
+
+.Password-input input
+{
+	height: 40px;
+	padding: 3px;
+	border-radius: 9999em;
+}
+
+.Password-input input:focus
+{
+background: linear-gradient(21deg, #0a369d, #f1dac4);
+
+
+
+}
+.Name-input input:focus
+{
+
+	background: linear-gradient(21deg, #0a369d, #1bea23);
+}
+
+.links li
+{
+	text-decoration: none;
+
+
+}
+
+.error {
+  padding-top: 10px;
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+
