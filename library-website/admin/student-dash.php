@@ -36,13 +36,13 @@
 			</div>
 			<ul class="links">
 				<div class="links-button">
-				<li><a href="book_search.php" target="left">Search Book</a></li>
+				<li><a href="book_search.php" target="_self">Search Book</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="changepwd.php" target="left">Change Password</a></li>
+				<li><a href="changepwd.php" target="_self">Change Password</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="view_issued.php" target="left">Issued Books</a></li>
+				<li><a href="view_issued.php" target="_self">Issued Books</a></li>
 				</div>
 				
 							

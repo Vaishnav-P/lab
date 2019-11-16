@@ -120,8 +120,10 @@ background: linear-gradient(21deg, #0a369d, #f1dac4);
 
 .error {
   padding-top: 10px;
-  width: 92%; 
-  margin: 0px auto; 
+  width: 80%; 
+  margin: 0px auto;
+  margin-right:100px;
+  margin-top:20px;   
   padding: 10px; 
   border: 1px solid #a94442; 
   color: #a94442; 

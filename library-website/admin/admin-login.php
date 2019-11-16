@@ -11,7 +11,7 @@
     <body>  	
     	<div class="wrapper">
     		
-    		<form action="admin-login.php" method="post">
+    		<form action="admin-login.php" method="post" name='val' onSubmit='return validate()'>
     			<?php include 'error.php';?>
     			<div class="login-heading"><h1>Log In</h1></div>
 		    		<div class="img-thumbnail">
@@ -30,13 +30,12 @@
 		    			<input type="password" name="login-password" value="" placeholder="Enter Password" required>
 		    		</div>
 		    		<div class="Login-Button">
-		    			<button type="submit" name="submit">log IN</button>
+		    			<button type="submit" name="submit" >log IN</button>
 		    		</div>
 		    		
     		</form>
     		
     	</div>
-        <script src="js/main.js"></script>
 
 
     </body>

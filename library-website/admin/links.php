@@ -44,19 +44,19 @@
 			</div>
 			<ul class="links">
 				<div class="links-button">
-				<li><a href="add_book.php">Add Book</a></li>
+				<li><a href="add_book.php" target="_self">Add Book</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="issue_book.php" target="left">Book Transactions</a></li>
+				<li><a href="issue_book.php" target="_self">Book Transactions</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="delete_book.php" target="left">Delete Book</a></li>
+				<li><a href="delete_book.php" target="_self">Delete Book</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="view_user.php" target="left">View User</a></li>
+				<li><a href="view_user.php" target="_self">View User</a></li>
 				</div>
 				<div class="links-button">
-				<li><a href="add_user.php" target="left">Add User</a></li>
+				<li><a href="add_user.php" target="_self">Add User</a></li>
 				</div>		
 		</div>
 	</div>

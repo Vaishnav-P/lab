@@ -6,23 +6,31 @@ session_start();
 	else
 	{
 		$errors = array();
+		$username = $_SESSION['username'];
 		if(isset($_POST['submit']))
 		{
 			$pwd = $_POST['newpwd'];
 			$pwd1 = $_POST['newpwd1'];
-			if($pwd!=$pwd1)
-				array_push($errors,"Passwords didn't match");
-			if(count($errors)== 0)
-			{
-				$user = $_SESSION['username'];
-				$query = "update user set pwd='$pwd' where username='$user'";
-				$result = mysqli_query($con,$query);
-				if($result)
-				array_push($errors, "success");
+			$oldpwd = $_POST['pwd'];
+			$query1 = "select * from user where username = '$username' and pwd = '$oldpwd' limit 1";
+			$r = mysqli_query($con,$query1);
+			if(mysqli_num_rows($r)==1)
+			{ 
+				if($pwd!=$pwd1)
+					array_push($errors,"Passwords didn't match");
+				if(count($errors)== 0)
+				{
+					$user = $_SESSION['username'];
+					$query = "update user set pwd='$pwd' where username='$user'";
+					$result = mysqli_query($con,$query);
+					if($result)
+					array_push($errors, "success");
 
 
+				}
 			}
-
+			else
+			array_push($errors,"Wrong Password");
 		}
 	}
 
@@ -36,11 +44,17 @@ session_start();
 	<link rel="stylesheet" href="">
 </head>
 <body>
+<div class="home"><a href="student-dash.php">HOME</a></div>
 	<div class="container">
 		<form method="post" action="changepwd.php">
 			<?php include 'error.php' ?>
 			<div class="input-group">
 				<h2>Change Password</h2>
+			</div>
+
+			<div class="input-group">
+				<label for="Enter Password">Enter Password</label>
+				<input type="password" name="pwd" value="" placeholder="Enter Password">
 			</div>
 			<div class="input-group">
 				<label for="New Password">New Password</label>
@@ -132,6 +146,21 @@ button:hover {
   background: #f2dede; 
   border-radius: 5px; 
   text-align: left;
+}
+.home
+{
+ border: 2px solid #3943b7 ;
+ border-radius:9999em;
+ background: radial-gradient( circle 386px at 0% 62.1%,  rgba(16,224,254,1) 0%, rgba(15,19,196,1) 100.7% );
+ width:100px;
+ padding:20px;
+ margin:10px;
+}
+.home a
+{
+  text-decoration:none;
+  color: #1320a5;
+
 }
 
 </style>

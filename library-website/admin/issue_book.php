@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="home"><a href="links.php">HOME</a></div>
   <div class="header">
   	<h2>Issue Book</h2>
   </div>
@@ -53,7 +54,7 @@
             echo"<td>".$user['sid']."</td>";
             echo"<td>".$user['issue_date']."</td>";
             echo"<td>".$user['return_date']."</td>";
-            echo"<td><a href=\"deleteissued.php?id=".$user['issueid']."\">Delete</a></td>";
+            echo"<td><a href=\"deleteissued.php?id=".$user['issueid']."\">Return</a></td>";
           echo "</tr>";
           }
         ?>
@@ -73,7 +74,21 @@ body {
    	background: rgb(238,174,202);
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
+.home
+{
+ border: 2px solid #3943b7 ;
+ border-radius:9999em;
+ background: radial-gradient( circle 386px at 0% 62.1%,  rgba(16,224,254,1) 0%, rgba(15,19,196,1) 100.7% );
+ width:100px;
+ padding:20px;
+ margin:10px;
+}
+.home a
+{
+  text-decoration:none;
+  color: #1320a5;
 
+}
 .header {
   width: 50%;
   margin: 50px auto 0px;
@@ -134,6 +149,7 @@ form,.content {
   border: 1px solid #3c763d;
   margin-bottom: 20px;
 }
+
 
   </style>
 </body>
